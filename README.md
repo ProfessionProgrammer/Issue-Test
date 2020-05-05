@@ -1,9 +1,10 @@
-![PrimeFaces icon](https://www.primefaces.org/wp-content/uploads/2016/10/prime_logo_new.png)
+This is the test project added to addressed the issue related to the primefaces-8.0 .
+
+In test.xhtml file if we remove the maxdate attribute form the <p:datepicker> component then it is working fine but with that attribute it is not working file.
+
+I checked the dataType of maxDate variable with (java.util.Date, java.time.LocalDateTime)
 
 
-This is a sample maven project that used <strong>PF8.0</strong> version. If you have a PrimeFaces issue, please download or fork this project. Then, you should change these files by yourself so that PrimeFaces Team can see your problem. Finally, you can send a link or attach the project. <strong>Please make sure that project is runnable with the command below.</strong>
+Thank you.
 
-You can execute the sample with <strong>mvn jetty:run</strong> command and hit <strong>http://localhost:8080/primefaces-test</strong> to run the page.
 
-Per default the application uses Mojarra 2.2.x. 
-You can also use other versions with the available maven profiles: myfaces22, myfaces23, mojarra23
